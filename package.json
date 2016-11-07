@@ -2,6 +2,7 @@
   "name": "hey-there",
   "version": "0.0.1",
   "description": "Separates module definitions from exporting syntax",
+  "engines" : { "node" : ">= 7.0.0" },
   "main": "index.js",
   "directories": {
     "test": "test"
