@@ -1,4 +1,4 @@
-# Hey There [![Travis](https://img.shields.io/travis/jayzawrotny/hey-there.svg)](https://travis-ci.org/jayzawrotny/hey-there) [![node](https://img.shields.io/node/v/gh-badges.svg)]()
+# Hey There [![Travis](https://img.shields.io/travis/jayzawrotny/hey-there.svg)](https://travis-ci.org/jayzawrotny/hey-there) [![node](https://img.shields.io/badge/node-7.x.x-brightgreen.svg)](https://nodejs.org/en/) [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/hey-there)
 
 A simple exporting wrapper using the best ES6 & Node 6+ has to offer.
 
