@@ -1,0 +1,30 @@
+{
+  "name": "hey-there",
+  "version": "0.0.1",
+  "description": "Separates module definitions from exporting syntax",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayzawrotny/hey-there.git"
+  },
+  "keywords": [
+    "export",
+    "module"
+  ],
+  "author": "Jay Zawrotny <jayzawrotny@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jayzawrotny/hey-there/issues"
+  },
+  "homepage": "https://github.com/jayzawrotny/hey-there#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.1.2"
+  }
+}
