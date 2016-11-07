@@ -24,9 +24,9 @@ util.export(mainFunc).expose({
 ```
 
 ## Disclaimer
-This solution is meant to be a stop-gap between current module.exports functionality & the upcoming `import` `export` functionality. However, some projects you may not want to compile with Babel but feel rather limited using `module.exports` in which case this module can help keep your module function definitions separate from how your export them to produce clean, maintainable code.
+This solution is meant to be a stop-gap between current `module.exports` functionality & the upcoming `import` `export` functionality. If it is underseriable to compile with Babel but using `module.exports` feels too limited this tool can allow you to write simpler, easily tested code without having to create unnecessary classes or objects with method properties requiring more precise syntax, nesting, and commas.
 
-When `import` & `export` are supported natively in node, then this package will no longer be of use as I believe we can all agree that using built in syntax is generally the better way to go. But this makes using the current node implementation a little bit better.
+When `import` & `export` are supported natively in node this package will no longer be of use as I believe we can all agree that using built in syntax is generally the better way to go. But for now this module makes using the current node implementation a little bit better.
 
 ## Problem
 Have you ever written JS code that creates simple functions that call internal functions and want to stub those out for testing?
