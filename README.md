@@ -1,4 +1,5 @@
-# Hey There
+# Hey There [![Travis](https://img.shields.io/travis/jayzawrotny/hey-there.svg)](https://travis-ci.org/jayzawrotny/hey-there) [![node](https://img.shields.io/node/v/gh-badges.svg)]()
+
 A simple exporting wrapper using the best ES6 & Node 6+ has to offer.
 
 ## Installation
